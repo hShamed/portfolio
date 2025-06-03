@@ -1,0 +1,26 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    padding-left: 150px;
+    border-bottom: 2px solid black;
+}
+
+.navbarUl {
+    display: flex;
+}
+
+.navbarItem {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.navbarTitle {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.navbarLink {
+    text-decoration: none;
+}
