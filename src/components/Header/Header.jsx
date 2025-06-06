@@ -9,8 +9,8 @@ const Header = () => {
     const handleMouseMove = (e) => {
       const containerRect = containerRef.current.getBoundingClientRect();
 
-      const x = e.clientX - containerRect.left;
-      const y = e.clientY - containerRect.top;
+      const x = e.clientX - containerRect.left + 50;
+      const y = e.clientY - containerRect.top - 30;
 
       setPosition({ x, y });
     };
@@ -19,7 +19,7 @@ const Header = () => {
     container.addEventListener("mousemove", handleMouseMove);
 
     return () => {
-      container.removeEventListener("mousemove", handleMouseMove); // Cleanup on unmount
+      container.removeEventListener("mousemove", handleMouseMove);
     };
   }, []);
 
@@ -39,7 +39,15 @@ const Header = () => {
           <span>Software Developer</span>
         </p>
       </div>
-      <h1 className={styles.title}>Hi, this is Hiram Ambriz.</h1>
+      <h1 className={styles.title}>Hey, this is Hiram Ambriz.</h1>
+      <div className={styles.subtitle}>
+        <p>
+          Currently → <b>Software Engineer</b>
+        </p>
+        <p>
+          Experience → <b>2.1 years</b>
+        </p>
+      </div>
     </header>
   );
 };
