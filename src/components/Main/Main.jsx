@@ -8,7 +8,18 @@ const Main = () => {
         date="Feb 2024 - Present"
         company="Martinez Accounting Services (MAS) + AccoFLOW!"
         role="Software Engineer"
-        description="Info about the company but with a focus on my contributions."
+        link="https://accoflow.com/"
+      />
+      <Section
+        date="Apr 2023 - Sep 2023"
+        company="Vadai"
+        role="Software Developer"
+        link="#"
+      />
+      <Section
+        date="Ene 2023 - Apr 2023"
+        company="Citelis"
+        role="IT Help Desk"
         link="#"
       />
     </main>

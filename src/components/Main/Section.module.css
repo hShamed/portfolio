@@ -1,0 +1,51 @@
+.section {
+    height: 100vh;
+    font-family: "Lexend", sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: top;
+}
+
+.dash {
+    width: 132px;
+    height: 10px;
+    margin-right: 20px;
+    border-bottom: 5px solid red;
+}
+
+.date {
+    padding-bottom: 10px;
+    font-size: 1.5lh;
+    font-weight: 300;
+}
+
+.company {
+    padding-bottom: 10px;
+    font-size: 2.4lh;
+}
+
+.role {
+    padding-bottom: 30px;
+    font-size: 1.2lh;
+    font-weight: 300;
+    color: red;
+}
+
+.btnView {
+    display: inline-block;
+    padding: 15px 40px;
+    font-size: 1lh;
+    color: white;
+    text-decoration: none;
+    background-color: red;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+    padding-left: 152px;
+    padding-top: 40px;
+}
