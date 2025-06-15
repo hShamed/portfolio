@@ -1,7 +1,7 @@
 import React from "react";
 import { useTheme } from "../../contexts/ThemeContext";
 import styles from "./ThemeSwitcher.module.css";
-import { SunIcon, MoonIcon } from "@heroicons/react/24/outline";
+import { SunIcon, MoonIcon } from "@heroicons/react/24/solid";
 
 function ThemeSwitcher() {
   const { theme, toggleTheme } = useTheme();

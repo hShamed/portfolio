@@ -6,6 +6,7 @@
     z-index: 1000;
     height: 100px;
     padding-left: 150px;
+    padding-right: 50px;
     border-bottom: 2px solid var(--border-color);
     background-color: var(--blur-bg);
     backdrop-filter: blur(12px);
@@ -39,16 +40,4 @@
     display: flex;
     justify-content: end;
     width: 50%;
-}
-
-.logo {
-    height: 1.5rem;
-    width: 1.5rem;
-    color: var(--text-color);
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.svg {
-    fill: var(--text-color);
 }
