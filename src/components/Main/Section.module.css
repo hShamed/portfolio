@@ -1,5 +1,5 @@
 .section {
-    height: 100vh;
+    height: 90vh;
     font-family: "Lexend", sans-serif;
 }
 
@@ -12,7 +12,7 @@
     width: 132px;
     height: 10px;
     margin-right: 20px;
-    border-bottom: 5px solid red;
+    border-bottom: 5px solid var(--primary-color);
 }
 
 .date {
@@ -30,16 +30,16 @@
     padding-bottom: 30px;
     font-size: 1.2lh;
     font-weight: 300;
-    color: red;
+    color: var(--primary-color);
 }
 
 .btnView {
     display: inline-block;
     padding: 15px 40px;
     font-size: 1lh;
-    color: white;
+    color: var(--text-reverse-color);
     text-decoration: none;
-    background-color: red;
+    background-color: var(--primary-color);
     border-radius: 25px;
     cursor: pointer;
 }

@@ -39,13 +39,18 @@ const Header = () => {
           <span>Software Developer</span>
         </p>
       </div>
-      <h1 className={styles.title}>Hey, this is Hiram Ambriz.</h1>
+      <h1 className={styles.title}>
+        Hey, this is <span className={styles.name}>Hiram Ambriz</span>.
+      </h1>
       <div className={styles.subtitle}>
         <p>
           Currently → <b>Software Engineer</b>
         </p>
         <p>
           Experience → <b>2.1 years</b>
+        </p>
+        <p>
+          Based → <b>Mexico</b>
         </p>
       </div>
     </header>

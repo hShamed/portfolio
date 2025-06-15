@@ -1,0 +1,13 @@
+.footer {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lexend", sans-serif;
+}
+
+.footer p {
+    opacity: 0.4;
+    font-size: 0.9lh;
+    font-weight: 300;
+}

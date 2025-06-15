@@ -19,6 +19,11 @@ const Section = ({ date, company, role, link }) => {
         <Figure
           src="https://static.wixstatic.com/media/7c2a35_bbb310ef91da4fd29d8eb522e3f94ead~mv2.png/v1/fill/w_696,h_379,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/7c2a35_bbb310ef91da4fd29d8eb522e3f94ead~mv2.png"
           alt="Image description"
+          caption="lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, volup. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum."
+        />
+        <Figure
+          src="https://static.wixstatic.com/media/7c2a35_bbb310ef91da4fd29d8eb522e3f94ead~mv2.png/v1/fill/w_696,h_379,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/7c2a35_bbb310ef91da4fd29d8eb522e3f94ead~mv2.png"
+          alt="Image description"
           caption="lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum."
         />
       </div>

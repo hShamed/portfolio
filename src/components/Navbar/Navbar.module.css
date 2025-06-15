@@ -6,8 +6,8 @@
     z-index: 1000;
     height: 100px;
     padding-left: 150px;
-    border-bottom: 2px solid black;
-    background-color: rgba(255, 255, 255, 0.5);
+    border-bottom: 2px solid var(--border-color);
+    background-color: var(--blur-bg);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     font-family: "Lexend", sans-serif;
@@ -24,14 +24,15 @@
     margin-right: 50px;
 }
 
-.navbarTitle {
-    font-size: 22px;
-    font-weight: bold;
-}
-
 .navbarLink {
     text-decoration: none;
-    color: #000;
+    color: var(--text-color);
+}
+
+.navbarTitle {
+    color: var(--primary-color);
+    font-size: 22px;
+    font-weight: bold;
 }
 
 .navbarIcons {
@@ -40,10 +41,14 @@
     width: 50%;
 }
 
-.logoIcon {
+.logo {
     height: 1.5rem;
     width: 1.5rem;
-    color: #000;
+    color: var(--text-color);
     display: inline-block;
     vertical-align: middle;
+}
+
+.svg {
+    fill: var(--text-color);
 }
