@@ -1,0 +1,47 @@
+.article {
+    height: 45vh;
+    padding: 15vh 15vw;
+    display: flex;
+    justify-content: center;
+    font-family: "Lexend", sans-serif;
+}
+.article img {
+    width: 380px;
+    height: 380px;
+    margin-right: 40px;
+    border-radius: 25%;
+}
+
+.title {
+    margin-bottom: 20px;
+    font-size: 3lh;
+}
+
+.content p {
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 1.2lh;
+    line-height: 2.4lh;
+}
+
+.keywords {
+    color: var(--primary-color);
+    font-weight: 400;
+}
+
+.btnSendEmail {
+    display: inline-block;
+    margin-top: 5px;
+    padding: 15px 30px;
+    color: var(--text-color);
+    border: 2px solid var(--border-color);
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 1.4lh;
+    transition: background-color 0.5s ease;
+}
+
+.btnSendEmail:hover {
+    background-color: var(--primary-color);
+    color: var(--text-reverse-color);
+}
