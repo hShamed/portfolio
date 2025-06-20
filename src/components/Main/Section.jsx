@@ -1,7 +1,16 @@
 import styles from "./Section.module.css";
 import Figure from "./Figure";
 
-const Section = ({ date, company, role, link }) => {
+const Section = ({
+  date,
+  company,
+  role,
+  link,
+  img1,
+  img2,
+  paragraph1,
+  paragraph2,
+}) => {
   return (
     <section className={styles.section}>
       <header className={styles.header}>
@@ -16,16 +25,8 @@ const Section = ({ date, company, role, link }) => {
         </div>
       </header>
       <div className={styles.content}>
-        <Figure
-          src="https://static.wixstatic.com/media/7c2a35_bbb310ef91da4fd29d8eb522e3f94ead~mv2.png/v1/fill/w_696,h_379,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/7c2a35_bbb310ef91da4fd29d8eb522e3f94ead~mv2.png"
-          alt="Image description"
-          caption="lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, volup. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum."
-        />
-        <Figure
-          src="https://static.wixstatic.com/media/7c2a35_bbb310ef91da4fd29d8eb522e3f94ead~mv2.png/v1/fill/w_696,h_379,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/7c2a35_bbb310ef91da4fd29d8eb522e3f94ead~mv2.png"
-          alt="Image description"
-          caption="lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum."
-        />
+        <Figure src={img1} caption={paragraph1} />
+        <Figure src={img2} caption={paragraph2} />
       </div>
     </section>
   );

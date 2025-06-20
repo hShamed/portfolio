@@ -15,11 +15,6 @@ const Navbar = () => {
             Me
           </a>
         </li>
-        <li className={styles.navbarItem}>
-          <a href="/projects" className={styles.navbarLink}>
-            Projects
-          </a>
-        </li>
       </ul>
 
       <ul className={styles.navbarIcons}>
