@@ -4,6 +4,8 @@ import accoflowImage1 from "../../assets/images/accoflow-1.webp";
 import accoflowImage2 from "../../assets/images/accoflow-2.webp";
 import vadaiImage1 from "../../assets/images/vadai-1.webp";
 import vadaiImage2 from "../../assets/images/vadai-2.webp";
+import citelisImage1 from "../../assets/images/citelis-1.webp";
+import citelisImage2 from "../../assets/images/citelis-2.webp";
 
 const Main = () => {
   return (
@@ -33,8 +35,8 @@ const Main = () => {
         company="Citelis"
         role="IT Help Desk"
         link="https://citelis.com.mx/"
-        img1="https://static.wixstatic.com/media/7c2a35_bbb310ef91da4fd29d8eb522e3f94ead~mv2.png/v1/fill/w_696,h_379,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/7c2a35_bbb310ef91da4fd29d8eb522e3f94ead~mv2.png"
-        img2="https://static.wixstatic.com/media/7c2a35_bbb310ef91da4fd29d8eb522e3f94ead~mv2.png/v1/fill/w_696,h_379,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/7c2a35_bbb310ef91da4fd29d8eb522e3f94ead~mv2.png"
+        img1={citelisImage1}
+        img2={citelisImage2}
         paragraph1="Developed a Help Desk platform for the support of equipment, devices and programs of the company's employees."
         paragraph2="Performed on-site and remote support to servers and personal equipment of the staff."
       />

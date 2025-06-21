@@ -6,10 +6,9 @@
     font-family: "Lexend", sans-serif;
 }
 .article img {
-    width: 380px;
-    height: 380px;
+    height: 520px;
     margin-right: 40px;
-    border-radius: 25%;
+    border-radius: 15px;
 }
 
 .title {

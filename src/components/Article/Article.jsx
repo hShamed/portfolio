@@ -1,12 +1,10 @@
 import styles from "./Article.module.css";
+import meImage from "../../assets/images/me.webp";
 
 const Article = () => {
   return (
     <article className={styles.article}>
-      <img
-        src="https://avatars.githubusercontent.com/u/121737918?v=4"
-        alt="Profile Picture"
-      />
+      <img src={meImage} alt="Profile Picture" />
       <div className={styles.content}>
         <h3 className={styles.title}>More about me</h3>
         <p>
