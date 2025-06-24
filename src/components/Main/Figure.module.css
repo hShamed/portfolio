@@ -5,7 +5,10 @@
 
 .img {
     width: 100%;
+    max-width: 700px;
     height: 400px;
+    display: flex;
+    justify-self: center;
     border-radius: 25px;
 }
 

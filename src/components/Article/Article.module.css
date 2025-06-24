@@ -1,12 +1,12 @@
 .article {
-    height: 45vh;
+    height: 42vh;
     padding: 15vh 15vw;
     display: flex;
     justify-content: center;
     font-family: "Lexend", sans-serif;
 }
 .article img {
-    height: 520px;
+    height: 490px;
     margin-right: 40px;
     border-radius: 15px;
 }

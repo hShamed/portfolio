@@ -1,8 +1,9 @@
 .footer {
     display: flex;
     height: 150px;
+    padding-bottom: 15px;
     justify-content: center;
-    align-items: center;
+    align-items: end;
     font-family: "Lexend", sans-serif;
 }
 
