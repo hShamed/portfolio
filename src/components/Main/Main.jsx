@@ -12,7 +12,7 @@ const Main = () => {
     <main className={styles.main}>
       <Section
         date="Feb 2024 - Present"
-        company="Martinez Accounting Services (MAS) + AccoFLOW!"
+        company="AccoFLOW! + Martinez Accounting Services"
         role="Software Engineer"
         link="https://accoflow.com/"
         img1={accoflowImage1}
