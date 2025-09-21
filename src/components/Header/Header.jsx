@@ -47,7 +47,7 @@ const Header = () => {
           Currently → <b>Software Engineer</b>
         </p>
         <p>
-          Experience → <b>2.4 years</b>
+          Experience → <b>+2 years</b>
         </p>
         <p>
           Based → <b>Mexico</b>

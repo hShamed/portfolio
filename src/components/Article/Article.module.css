@@ -1,6 +1,6 @@
 .article {
-    height: 42vh;
-    padding: 15vh 15vw;
+    height: 64vh;
+    padding: 10vh 15vw;
     display: flex;
     justify-content: center;
     font-family: "Lexend", sans-serif;
@@ -14,13 +14,13 @@
 
 .title {
     margin-bottom: 2rem;
-    font-size: 3lh;
+    font-size: 2.4lh;
 }
 
 .content p {
     margin-bottom: 1.2rem;
     font-weight: 300;
-    font-size: 1.2lh;
+    font-size: 1lh;
     line-height: 2.4lh;
 }
 
