@@ -1,21 +1,11 @@
 import styles from "./Footer.module.css";
-import { DocumentTextIcon, EnvelopeIcon } from "@heroicons/react/24/solid";
-import myResume from "../../assets/resumes/resume.pdf";
+import { EnvelopeIcon } from "@heroicons/react/24/solid";
 
 const Footer = () => {
   return (
     <footer className={styles.footer}>
       <div>
         <ul className={styles.footerIcons}>
-          <li className={styles.footerItem}>
-            <a
-              href={myResume}
-              className={styles.navbarLink}
-              download="Hiram-Ambriz.pdf"
-            >
-              <DocumentTextIcon className={styles.logo} />
-            </a>
-          </li>
           <li className={styles.footerItem}>
             <a href="https://github.com/hShamed" target="_blank">
               <svg
